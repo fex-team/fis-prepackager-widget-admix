@@ -23,7 +23,7 @@ FIS反广告拦截组件样式混淆插件
 
 fis.config.merge({
     modules: {
-        widget-admix: 'ad-mix'
+        prepackager: 'widget-admix'
     },
     settings: {
         prepackager: {
