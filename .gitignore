@@ -1,7 +1,7 @@
 ._*
-output/
+test/moduleA/output
 node_modules/
-
+output
 .DS_Store
 
 *.db
