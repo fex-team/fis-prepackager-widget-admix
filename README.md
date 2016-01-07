@@ -23,7 +23,6 @@ FIS反广告拦截组件样式混淆插件
 
 fis.config.merge({
     modules: {
-<<<<<<< HEAD
         widget-admix: 'ad-mix'
     },
     settings: {
@@ -37,10 +36,6 @@ fis.config.merge({
                 mix : {}
             }
         }
-=======
-        //对tpl和css文件使用此插件
-        prepackager: 'ad-mix'
->>>>>>> 7a434efbdec017b6d6bb4012470a3741b9bc1345
     }
 });
 ```
