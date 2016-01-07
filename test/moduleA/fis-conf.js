@@ -1,3 +1,4 @@
+//fis2
 //fis release -d output
 
 
@@ -33,3 +34,34 @@ fis.config.merge({
     }
 });
 
+
+
+
+
+
+//fis3
+//fis3 release -d outupt
+
+/*fis.set('namespace', 'moduleA');
+
+
+fis.match('widget/**', {
+    useMap: true
+});
+
+
+fis.match('**.tpl', {
+    isHtmlLike : true
+});
+
+
+fis.match("::package",{
+    prepackager : fis.plugin('widget-admix',{
+        list : [
+            'widget/slogan'
+        ],
+        ignore: '.wrap',
+        //自定义混淆处理
+        mix : {}
+    })
+})*/

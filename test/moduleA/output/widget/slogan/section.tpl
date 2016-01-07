@@ -1,24 +1,24 @@
 
-<section class="section hyqEjg wrap"  class="nzqZeA" id='wtgm2X'>
+<section class="section irZ6Yo wrap"  class="qbAegZ" id='zldNmZ'>
 
 </section>
 
 {%style%}
-  .nzqZeA{
+  .qbAegZ{
     color: white;
   }
 {%/style%}
 
 <%style%>
-.hyqEjg{
+.irZ6Yo{
     color: black;
   }
 <%/style%>
 
 {%script%}
-    var a = document.getElementById("wtgm2X");
-    var b = document.getElementById("wtgm2X");
+    var a = document.getElementById("zldNmZ");
+    var b = document.getElementById("zldNmZ");
 
-    a.setAttribute( "class"," hyqEjg" );
-    a.setAttribute("id", "wtgm2X");
+    a.setAttribute( "class"," irZ6Yo" );
+    a.setAttribute("id", "zldNmZ");
 {%/script%}

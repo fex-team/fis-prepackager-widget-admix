@@ -45,14 +45,13 @@ fis.config.merge({
 
 **FIS3:**
 
-待测试
 
 ```javascript
 //vi fis-conf.js
 
 fis.match("::package",{
-    prepackager : fis.plugin('widget-admix',function(){
-          ignore: '.clearfix,',//不进行混淆的选择器，多个逗号隔开
+    prepackager : fis.plugin('widget-admix',{
+          ignore: '.clearfix',//不进行混淆的选择器，多个逗号隔开
           list: [ //需要混淆的组件，相对模块根目录路径
               'widget/slogan'
           ],
@@ -70,6 +69,7 @@ fis.match("::package",{
 
 例如JS中如果要设置自定义混淆逻辑:
 
+```javascript
  mix : {
     //数组形式，代表多个混淆逻辑，依次执行
     'js' : [function(code){
@@ -78,11 +78,14 @@ fis.match("::package",{
         return code;
     }]
  }
+```
 
 
 ### 使用效果
 
-#### 自动获取组件内所有css文件和模板内嵌css选择器，生成hash值进行混淆处理(每次编译都重新生成一遍)
+#### 自动获取组件内所有css文件和模板内嵌css选择器，生成hash值进行混淆处理
+
+每次编译都重新生成一遍
 
 **开发时:**
 
@@ -91,8 +94,6 @@ fis.match("::package",{
 #slogan {
     position: relative;
 }
-
-
 ```
 
 ```html
