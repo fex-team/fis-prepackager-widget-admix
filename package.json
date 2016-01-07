@@ -1,0 +1,31 @@
+{
+  "name": "fis-prepackager-widget-admix",
+  "version": "0.0.1",
+  "description": "组件样式混淆插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis"
+  ],
+  "dependencies": {
+    "css-parse": "2.0.0",
+    "hashids" : "1.0.2"
+  },
+  "author": {
+    "name": "fis"
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "zhangtao07",
+      "email": "zhang.tao.1006@163.com"
+    },
+    {
+      "name": "fis-dev",
+      "email": "longyun_zh@163.com"
+    }
+  ],
+  "readmeFilename": "README.md"
+}

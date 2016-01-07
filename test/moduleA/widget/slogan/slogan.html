@@ -1,0 +1,38 @@
+<section class="section style_test2"  class="style_test" id='slogan'>
+    <a id="forkme_banner" href="https://github.com/fis-dev/fis">View on GitHub</a>
+    <div class="box wrap">
+        <h2>前端集成解决方案</h2>
+        <h3>Front-end Integrated Solution</h3>
+    </div>
+    <img src="macbook.png"/>
+</section>
+
+{%style%}
+  .test{
+    color: white;
+  }
+
+{%/style%}
+
+
+<script type="text/javascript">
+    _.Module.use('frs/widget/PlatformAsideSwitch', [{
+        positions : <?=json($this->position)?>,
+        element : ".style_test",
+        is_star_official : <?=json($is_star_official)?>
+    }]);
+
+    $(".style_test");
+</script>
+
+<style>
+    .style_test a{
+        color:black;
+    }
+</style>
+
+<style>
+    .style_test2 b{
+        color:red;
+    }
+</style>

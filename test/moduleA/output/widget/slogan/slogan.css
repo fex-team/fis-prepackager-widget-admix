@@ -1,0 +1,27 @@
+
+
+#wtgm2X {
+    background-size: 100% 100%;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+#wtgm2X .hwqO5X ,#wtgm2X .gdqNWg{
+    color: #fff;
+    font-weight: normal;
+}
+
+#ejgR6g {
+    display: block;
+    position: absolute;
+}
+
+@media (max-width: 1024px) {
+    #wtgm2X img {
+        display: none;
+    }
+}
+
+.wrap{
+    font-size:12px;
+}
