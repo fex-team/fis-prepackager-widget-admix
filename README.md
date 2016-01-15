@@ -27,7 +27,7 @@ fis.config.merge({
     },
     settings: {
         prepackager: {
-            'widget-inline':  {
+            'widget-admix':  {
                 ignore: '.clearfix,',//不进行混淆的选择器，多个逗号隔开
                 list: [ //需要混淆的组件，相对模块根目录路径
                     'widget/slogan'
